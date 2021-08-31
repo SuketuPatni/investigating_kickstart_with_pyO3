@@ -27,18 +27,31 @@ The question can be found here: [Arithmetic Square](https://codingcompetitions.w
 2. Python (3.6 or higher)
 3. A virtual Python environment is required in the working directory. This must have [maturin](https://github.com/PyO3/maturin) installed on it.
 
-# Setting up the Python virtual environment
+# Running the code
 
-Run the following code in the working directory:- <br/>
+Create a working directory named "ks_d1_2021". Giving any other name will lead to errors. <br/>
+Run the following code in it.
+
+## Build the project with cargo
+
+`cargo build`
+
+## Setting up the Python virtual environment
+
 `python3 -m venv .env` <br/>
-`source .env/bin/activate`<br/>
+`source .env/bin/activate`
+
+## Installing maturin
+
 `pip install maturin`<br/>
-`maturin develop`<br/>
+`maturin develop`
 
-After this is done, run the code by <br/>
+## Running the file
+
 `python input.py`<br/>
+After this give the required inputs.
 
-To deactivate the venv, write<br/>
+## Deactivating the venv
 `deactivate`<br/>
 
 # Why should I do this?
