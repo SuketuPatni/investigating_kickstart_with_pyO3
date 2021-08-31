@@ -1,6 +1,6 @@
 # working_with_pyO3
 
-A simple Google Kickstart question solved using Python wrapped Rust.
+A simple Google Kickstart question solved using Python-wrapped Rust.
 
 # What is pyO3?
 
