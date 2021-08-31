@@ -49,7 +49,7 @@ Run the following code in it.
 ## Running the file
 
 `python input.py`<br/>
-After this give the required inputs.
+After this, give the required inputs.
 
 ## Deactivating the venv
 `deactivate`<br/>
