@@ -1,3 +1,4 @@
+#![allow(unused)]
 use std::collections::HashMap;
 
 fn mode(numbers: &Vec<i64>) -> i64 {
