@@ -29,17 +29,17 @@ The question can be found here: [Arithmetic Square](https://codingcompetitions.w
 
 # Setting up the Python virtual environment
 
-Run the following code in the working directory:-
-`python3 -m venv .env`
-`source .env/bin/activate`
-`pip install maturin`
-`maturin develop`
+Run the following code in the working directory:- <br/>
+`python3 -m venv .env` <br/>
+`source .env/bin/activate`<br/>
+`pip install maturin`<br/>
+`maturin develop`<br/>
 
-After this is done, run the code by 
-`python input.py`
+After this is done, run the code by <br/>
+`python input.py`<br/>
 
-To deactivate the venv, write
-`deactivate`
+To deactivate the venv, write<br/>
+`deactivate`<br/>
 
 # Why should I do this?
 
