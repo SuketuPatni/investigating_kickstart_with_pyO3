@@ -56,10 +56,10 @@ After this, give the required inputs.
 
 # Why should I do this?
 
-1. Input processing in Rust is a pain. In Python it is easy as pie.
+1. Input processing in Rust is a pain. In Python, it is easy as pie.
 2. Rather than spending time on formatting and getting the input properly, it is much easier and time-saving to focus on Rust by writing just the algorithm in it.
    
 # Why shouldn't I do this?
 
 1. Competitive programming websites accept single files with a single language only. Reliance on mutliple files/languages is not allowed.
-2. Although a pain, it is important to know how to parse inputs properly in any language.
+2. Although a pain, it is important to know how to parse inputs correctly in any language.
