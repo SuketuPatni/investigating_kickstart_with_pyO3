@@ -30,16 +30,16 @@ The question can be found here: [Arithmetic Square](https://codingcompetitions.w
 # Setting up the Python virtual environment
 
 Run the following code in the working directory:-
->>> python3 -m venv .env
->>> source .env/bin/activate
->>> pip install maturin
->>> maturin develop
+`python3 -m venv .env`
+`source .env/bin/activate`
+`pip install maturin`
+`maturin develop`
 
 After this is done, run the code by 
->>> python input.py
+`python input.py`
 
 To deactivate the venv, write
->>> deactivate
+`deactivate`
 
 # Why should I do this?
 
