@@ -27,6 +27,20 @@ The question can be found here: [Arithmetic Square](https://codingcompetitions.w
 2. Python (3.6 or higher)
 3. A virtual Python environment is required in the working directory. This must have [maturin](https://github.com/PyO3/maturin) installed on it.
 
+# Setting up the Python virtual environment
+
+Run the following code in the working directory:-
+>>> python3 -m venv .env
+>>> source .env/bin/activate
+>>> pip install maturin
+>>> maturin develop
+
+After this is done, run the code by 
+>>> python input.py
+
+To deactivate the venv, write
+>>> deactivate
+
 # Why should I do this?
 
 1. Input processing in Rust is a pain. In Python it is easy as pie.
