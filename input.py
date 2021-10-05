@@ -34,6 +34,7 @@ answers_list1 = []
 
 f1 = open("test_set_1/ts1_input.txt")
 test_list = f1.read().split("\n")
+f1.close()
 
 for i in range(1, len(test_list), 3):
     vec_1 = [int(j) for j in test_list[i].strip().split(" ")]
@@ -44,6 +45,7 @@ for i in range(1, len(test_list), 3):
 # print(answers_list) # debugging
 f2 = open("test_set_1/ts1_output.txt")
 answer_key1 = [int(k[-1]) for k in f2.read().split("\n")]
+f2.close()
 
 # answers_list1[1] = 7 # to check testing
 
@@ -55,6 +57,7 @@ answers_list2 = []
 
 f3 = open("test_set_2/ts2_input.txt")
 test_list2 = f3.read().split("\n")
+f3.close()
 
 for i in range(1, len(test_list2), 3):
     vec_1 = [int(j) for j in test_list2[i].strip().split(" ")]
@@ -65,13 +68,9 @@ for i in range(1, len(test_list2), 3):
 # print(answers_list) # debugging
 f4 = open("test_set_2/ts2_output.txt")
 answer_key2 = [int(k[-1]) for k in f4.read().split("\n")]
+f4.close()
 
 print("\nTest Set 2:-")
 # answers_list2[3] = 8 # to check testing
 # answers_list2[4] = 5 
 compare(answers_list2, answer_key2)
-
-f1.close()
-f2.close()
-f3.close()
-f4.close()
