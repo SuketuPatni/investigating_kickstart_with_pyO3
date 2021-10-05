@@ -14,7 +14,7 @@ Resources:-
 
 # The question
 
-The question (as well as the test case text files) can be found here: [Arithmetic Square](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082b813)
+The question can be found here: [Arithmetic Square](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082b813)
 
 # Features
 
@@ -32,7 +32,7 @@ The question (as well as the test case text files) can be found here: [Arithmeti
 
 # Running the code
 
-Download the code as a zip file and extract it in a working directory named "ks_d1_2021". <br/>
+Download the code as a zip file (the test cases are included already) and extract it in a working directory named "ks_d1_2021". <br/>
 Giving any other name will lead to errors. Run the following code in it. 
 
 ## Setting up the Python virtual environment
