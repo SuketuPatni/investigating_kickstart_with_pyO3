@@ -71,5 +71,7 @@ print("\nTest Set 2:-")
 # answers_list2[4] = 5 
 compare(answers_list2, answer_key2)
 
+f1.close()
+f2.close()
 f3.close()
 f4.close()
