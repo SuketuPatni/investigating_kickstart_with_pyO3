@@ -70,3 +70,6 @@ print("\nTest Set 2:-")
 # answers_list2[3] = 8 # to check testing
 # answers_list2[4] = 5 
 compare(answers_list2, answer_key2)
+
+f3.close()
+f4.close()
