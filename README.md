@@ -1,8 +1,7 @@
 #  investigating_kickstart_with_pyO3
 
-A simple Google Kickstart question solved using Python-wrapped Rust. Further, a testing mechanism is also included. <br/>
-Not only does this project focus on solving the problem, it also focuses on simulating checking the correctness <br/>
-of the solution as observed in real-time Google Kickstart rounds.
+A simple Google Kickstart question solved using Python-wrapped Rust.<br> 
+The solutions are also checked and corrected with the model solutions.
 
 # What is pyO3?
 
@@ -14,13 +13,13 @@ Resources:-
 
 # The question
 
-The question can be found here: [Arithmetic Square](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082b813)
+[Arithmetic Square](https://codingcompetitions.withgoogle.com/kickstart/round/00000000004361e3/000000000082b813)
 
 # Features
 
 1. All of the logic is written in src/lib.rs and wrapped as a Python function using pyO3.
 2. lib.rs is exported as a Python module, which is imported in the input.py file.
-3. The input.py file serves only to take inputs, display the output and run the 2 tests.
+3. The input.py file serves only to take inputs (from text files), display the output and run the 2 tests.
 4. No significant decrease in benchmarks is noticed as compared to writing it in pure Rust/pure Python.
 5. A very primitive and simple test is used to check if the algorithm works correctly for all given test cases.
 
@@ -32,15 +31,17 @@ The question can be found here: [Arithmetic Square](https://codingcompetitions.w
 
 # Running the code
 
-Download the code as a zip file (the test cases are included already) and extract it in a working directory named "ks_d1_2021". <br/>
-Giving any other name will lead to errors. Run the following code in it. 
+Clone and cd <br>
+`git clone https://github.com/SuketuPatni/investigating_kickstart_with_pyO3.git ks_d1_2021`  <br>
+`cd ks_d1_2021` <br>
+and then run the following:-
 
 ## Setting up the Python virtual environment
 
 `python3 -m venv .env` <br/>
-Then, <br/>
-1. `source .env/bin/activate` for Linux systems.
-2. `activate` for Windows systems.
+followed by
+1. `source .env/bin/activate` for Linux
+2. `activate` for Windows
 
 ## Installing maturin
 
@@ -53,15 +54,3 @@ Then, <br/>
 
 ## Deactivating the venv
 `deactivate`<br/>
-
-# Why should I do this?
-
-1. Input processing in Rust is a pain. In Python, it is incredibly easy.
-2. Rather than spending time on formatting and getting the input properly, it is much easier and time-saving to focus on Rust by writing just the algorithm in it.
-3. It allows for better debugging on what went wrong in a particular test case, unlike in competitions, where no specifics are mentioned.
-   
-# Why shouldn't I do this?
-
-1. Competitive programming websites accept single files with a single language only. Reliance on mutliple files/languages is not allowed.
-2. Although a pain, it is important to know how to parse inputs correctly in any language.
-3. Testing, although beneficial to do locally, is overkill for competitive programming; websites/platforms generally perform it for you.
